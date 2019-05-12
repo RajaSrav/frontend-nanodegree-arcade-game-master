@@ -19,6 +19,7 @@ Enemy.prototype.update = function(dt) {
   if (player.x < this.x + 60 && player.x + 60 > this.x && player.y < this.y + 60 && player.y + 70 > this.y) {
     player.x = 202;
     player.y = 404;
+    alert("opps your game lose")
   }
   // which will ensure the game runs at the same speed for
   // all computers.
